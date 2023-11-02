@@ -82,22 +82,22 @@ export default function Bootstrap() {
                     </div>
                     <div className="row" style={{ minHeight: "65px" }}>
                         <div className="col bg-danger text-white">
-                            hello bootstrap
+                            <h3>hello bootstrap</h3>
                         </div>
                     </div>
                     <div className="row" style={{ minHeight: "65px" }}>
                         <div className="col bg-info">
-                            hello bootstrap
+                            <h3>hello bootstrap</h3>
                         </div>
                     </div>
                     <div className="row" style={{ minHeight: "65px" }}>
                         <div className="col bg-danger">
-                            hello bootstrap
+                            <h3>hello bootstrap</h3>
                         </div>
                     </div>
                     <div className="row" style={{ minHeight: "65px" }}>
                         <div className="col bg-info">
-                            hello bootstrap
+                            <h3>hello bootstrap</h3>
                         </div>
                     </div>
                     
@@ -120,8 +120,8 @@ export default function Bootstrap() {
             </div>
             <hr />
             <div className="row">
-                <div className="col bg-info"><h1>hhhhh</h1></div>
-                <div className="col bg-primary"><h1>hhhhh</h1></div>
+                <div className="col bg-info"><h1>practice</h1></div>
+                <div className="col bg-primary"><h1>Grid</h1></div>
             </div>
         </div>
     )
