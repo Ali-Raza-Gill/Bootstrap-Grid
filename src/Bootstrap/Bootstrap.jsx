@@ -45,13 +45,13 @@ export default function Bootstrap() {
                 </div>
             </div>
 
-            <div className="row mt-5 bg-success " style={{ height: "150px" }}>
-                <div className="col">
+            <div className="row mt-5  " style={{ height: "150px" }}>
+                <div className="col bg-success">
                     <h1>This is 1st</h1>
                 </div>
             </div>
             <div className="row my-2 " style={{ minHeight: "150px" }}>
-                <div className="col-sm-12 col-md-7 col-lg-7 bg-primary ">
+                <div className="col-sm-12 col-md-7 col-lg-7  ">
                     <div className='mt-2 gap-2 d-flex justify-content-around'><h1 className='bg-info'>This is the Reason  </h1>
                         <h1 className='bg-danger'>This is the Reason   </h1></div>
                     <div ><h1 className='bg-danger'>2nd   </h1></div>
@@ -62,7 +62,7 @@ export default function Bootstrap() {
                 </div>
             </div>
             <div className="row mt-2">
-                <div className="col-sm-12 col-md-7 col-lg-7  bg-dark" >
+                <div className="col-sm-12 col-md-7 col-lg-7  " >
                     <div className="row d-flex justify-content-around" style={{ minHeight: "65px" }}>
                         <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-info">
                             <p>hello bootstrap</p>
@@ -100,9 +100,9 @@ export default function Bootstrap() {
                             <h3>hello bootstrap</h3>
                         </div>
                     </div>
-                    
+
                 </div>
-                <div className="col-sm-12 col-md-5 col-lg-5 bg-success">
+                <div className="col-sm-12 col-md-5 col-lg-5 ">
                     <div className="row" style={{ minHeight: "100px" }}>
                         <div className="col m-3 my-2 mb-0 bg-dark text-white">
                             <p>Raza</p>
