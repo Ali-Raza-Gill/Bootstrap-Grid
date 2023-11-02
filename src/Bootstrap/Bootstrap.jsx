@@ -45,41 +45,71 @@ export default function Bootstrap() {
                 </div>
             </div>
 
-
-            <div className="row mt-5 bg-success " style={{height:"150px"}}>
+            <div className="row mt-5 bg-success " style={{ height: "150px" }}>
                 <div className="col">
                     <h1>This is 1st</h1>
                 </div>
             </div>
-            <div className="row my-2 "style={{minHeight:"150px"}}>
+            <div className="row my-2 " style={{ minHeight: "150px" }}>
                 <div className="col-sm-12 col-md-7 col-lg-7 bg-primary ">
                     <div className='mt-2 gap-2 d-flex justify-content-around'><h1 className='bg-info'>This is the Reason  </h1>
-                    <h1 className='bg-danger'>This is the Reason   </h1></div>
+                        <h1 className='bg-danger'>This is the Reason   </h1></div>
                     <div ><h1 className='bg-danger'>2nd   </h1></div>
-                    <div ><h1 className='bg-danger'>2nd   </h1></div>   
+                    <div ><h1 className='bg-danger'>2nd   </h1></div>
                 </div>
                 <div className="col-sm-12 col-md-5 col-lg-5 bg-info ">
                     <div ><h1>2nd   </h1></div>
                 </div>
             </div>
             <div className="row mt-2">
-                <div className="col-sm-12 col-md-7 col-lg-7  bg-danger">
-                    <h2>3rd</h2>
-                    <h2>3rd</h2>
-                    <h2>3rd</h2>
-                    <h2>3rd</h2>
+                <div className="col-sm-12 col-md-7 col-lg-7  bg-dark" >
+                    <div className="row " style={{ minHeight: "65px" }}>
+                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-info">
+                            <p>hello bootstrap</p>
+                        </div>
+                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-secondary">
+                            <p >hello bootstrap</p>
+                        </div>
+                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-info">
+                            <p>hello bootstrap</p>
+                        </div>
+                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-danger">
+                            <p>hello bootstrap</p>
+                        </div>
+                    </div>
+                    <div className="row" style={{ minHeight: "65px" }}>
+                        <div className="col bg-danger text-white">
+                            hello bootstrap
+                        </div>
+                    </div>
+                    <div className="row" style={{ minHeight: "65px" }}>
+                        <div className="col bg-info">
+                            hello bootstrap
+                        </div>
+                    </div>
+                    <div className="row" style={{ minHeight: "65px" }}>
+                        <div className="col bg-danger">
+                            hello bootstrap
+                        </div>
+                    </div>
+                    <div className="row" style={{ minHeight: "65px" }}>
+                        <div className="col bg-info">
+                            hello bootstrap
+                        </div>
+                    </div>
+                    
                 </div>
                 <div className="col-sm-12 col-md-5 col-lg-5 bg-success">
-                    <div className="row" style={{minHeight:"100px"}}>
+                    <div className="row" style={{ minHeight: "100px" }}>
                         <div className="col m-3 my-2 mb-0 bg-dark text-white">
                             <p>Raza</p>
                         </div>
                     </div>
-                    <div className="row m-1 my-2 d-flex gap-3"style={{minHeight:"100px"}}>
+                    <div className="row m-1 my-2 d-flex gap-3" style={{ minHeight: "100px" }}>
                         <div className="col bg-info"><p>hello</p></div>
                         <div className="col bg-danger"><p>hello</p></div>
                     </div>
-                    <div className="row m-1 my-2 d-flex gap-3"style={{minHeight:"100px"}}>
+                    <div className="row m-1 my-2 d-flex gap-3" style={{ minHeight: "100px" }}>
                         <div className="col bg-secondary"><p>grid</p></div>
                         <div className="col bg-primary"><p>grid</p></div>
                     </div>
