@@ -63,17 +63,20 @@ export default function Bootstrap() {
             </div>
             <div className="row mt-2">
                 <div className="col-sm-12 col-md-7 col-lg-7  bg-dark" >
-                    <div className="row " style={{ minHeight: "65px" }}>
-                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-info">
+                    <div className="row d-flex justify-content-around" style={{ minHeight: "65px" }}>
+                        <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-info">
                             <p>hello bootstrap</p>
                         </div>
-                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-secondary">
+                        <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-secondary">
                             <p >hello bootstrap</p>
                         </div>
-                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-info">
+                        <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-info">
                             <p>hello bootstrap</p>
                         </div>
-                        <div className="col-sm-12 my-sm-1 col-md-5 mx-md-3 my-md-2 col-lg-3 bg-danger">
+                        <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-danger">
+                            <p>hello bootstrap</p>
+                        </div>
+                        <div className="col-sm-12 my-sm-1 col-md-4 mx-md-3 my-md-2 col-lg-2 mx-lg-2 bg-info">
                             <p>hello bootstrap</p>
                         </div>
                     </div>
